@@ -118,7 +118,7 @@ This is written on the basis that you are using pterodactyl panel, and are able 
 ### 5. Set Up the Tebex Webhook
 Navigate to your Tebex dashboard.
 Under Webhooks, create a new webhook with the following:
-URL: ``http://your-server-ip:8195/tebex/webhook``
+URL: `http://your-server-ip:3000/tebex/webhook`
 Method: POST
 Save the webhook.
 
