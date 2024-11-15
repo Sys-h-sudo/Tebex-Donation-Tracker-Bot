@@ -61,7 +61,7 @@ module.exports = {
         timeout: 750
     },
     webhook: {
-        port: 8195 // Port to run the webhook listener
+        port: 0000 // Port to run the webhook listener
     },
     donationGoal: {
         amountNeeded: 75 // Amount needed to trigger the goal reached event
