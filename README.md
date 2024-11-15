@@ -133,3 +133,19 @@ Contributions, issues, and feature requests are welcome! Feel free to submit a p
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+
+## Roadmap:
+
+Switch to Hosted DB
+Slash Commands
+> /rcon send
+> /rcon suspend
+> /db wipe
+> /purge
+> /suspend embeds
+
+Move **all** configurable options to config.js
+> RCON Commands
+> Emojis, etc.
+
