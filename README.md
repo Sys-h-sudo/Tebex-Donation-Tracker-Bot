@@ -1,5 +1,7 @@
 ## Tebex Purchase Webhook Events -> Discord Bot & Minecraft RCON
 
+If you wish to use this, please credit me and follow the license terms.
+
 ---
 
 ## Features
