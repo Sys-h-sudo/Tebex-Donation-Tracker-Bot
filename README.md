@@ -32,8 +32,8 @@ Follow these steps to get your bot up and running:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo/supersmp-donation-tracker.git
-cd supersmp-donation-tracker
+git clone https://github.com/Sys-h-sudo/Tebex-Donation-Tracker-Bot.git
+cd tebex-donation-tracker-bot
 ```
 ### 2. Install dependencies
 
