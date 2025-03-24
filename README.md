@@ -42,7 +42,7 @@ npm install
 ```
 & or
 ```bash
-npm i discord.js sqlite3 rcon-client express
+npm i discord.js express rcon-client mysql2 dotenv fs sqlite3
 ```
 
 ## Pterodactyl parameters:
@@ -51,7 +51,7 @@ If you are using Pterodactyl, esnure the following settings along with the corre
 
 > Additional Node Packages
 ```bash
-discord.js express rcon-client sqlite3
+discord.js express rcon-client mysql2 dotenv fs sqlite3
 ```
 
 > Startup
