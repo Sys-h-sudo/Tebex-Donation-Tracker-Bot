@@ -75,41 +75,48 @@ node index.js
 ```javascript
 module.exports = {
     discord: {
-        botToken: 'your-bot-token', // Replace with your Discord bot token
-        channelId: 'your-channel-id' // Replace with your target Discord channel ID
+        botToken: '',
+        channelId: '' 
     },
+
     rcon: {
-        host: 'your-minecraft-server-ip',
-        port: 8194, // Replace with your RCON port
-        password: 'your-rcon-password',
+        host: '172.18.0.1',
+        port: 8190,
+        password: 'rcon_password',
         timeout: 750
     },
     webhook: {
-        port: 0000 // Port to run the webhook listener
+        port: 8191
     },
     donationGoal: {
-        amountNeeded: 75 // Amount needed to trigger the goal reached event
+        amountNeeded: 75 // amount needed
     },
     embeds: {
         purchase: {
-            title: 'Tebex Purchase',
-            color: '#ffe93f',
+            title: '🎉 Store Donation',
+            color: '#FBCD08',
             playerFieldName: 'Player',
             purchasedFieldName: 'Purchased',
-            skinBaseUrl: 'https://mc-heads.net/player/'
+            skinBaseUrl: 'https://vzge.me/bust/' // Supports 3d Models.
         },
         rewardSent: {
-            title: 'Epic key all!',
-            description: '1x Epic Key has been sent to all online players! Thanks everyone for your support!',
-            color: '#77DD77'
+            title: '🎉 Epic Key All!',
+            description: '**1x Epic Key** has been given to **all** online players!',
+            color: '#FBCD08'
         },
         goalReached: {
-            title: 'Goal Reached!',
+            title: '🎉 Goal Reached!',
             description: 'We have reached our donation goal!',
-            color: '#00FF00'
+            color: '#FBCD08'
+        },
+        ReachedGoal: {
+            title: '🎉 Goal Reached & Rewards Sent!',
+            description: 'We have reached our donation goal and **1x Epic Key** has been given to **all** online players!',
+            color: '#FBCD08' 
         }
     }
 };
+
 ```
 ### Disclaimer:
 
